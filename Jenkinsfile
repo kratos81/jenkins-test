@@ -1,4 +1,5 @@
 pipeline {
+    // checking the code for something 
     agent {
         docker { image 'node:7-alpine' }
     }
